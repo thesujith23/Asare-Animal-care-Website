@@ -1,0 +1,138 @@
+/* .about{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+    margin:30px 30px 0;
+} 
+
+h3{
+    font-size: 25px;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.p1{
+    font-size: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+hr{
+    width: 50%;
+    position:absolute;
+    top: 17%;
+    left: 25%;
+    color: red;
+}
+
+.para{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 15px 20px;
+    width: 20%;
+    height: 30%;
+        border: 1px solid #ddd; 
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        flex: 1 1 calc(25% - 20px); 
+        max-width: 300px;
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 120px; 
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+ */
+ .about {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    margin: 30px 15px;
+}
+
+h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.p1 {
+    font-size: 18px;
+    padding: 0 10%;
+    margin-bottom: 4rem;
+    font-weight: bolder;
+}
+
+hr {
+    width: 50%;
+    margin: 2rem auto;
+    border: 1px solid red;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure row layout */
+    justify-content: center; /* Center content in a row */
+    gap: 30px; /* Add space between boxes */
+    overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+}
+
+.para {
+    flex: 1 1 calc(30% - 30px); /* Wider boxes */
+    max-width: 300px; /* Maximum box size */
+    height:200px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 25px; /* More padding for larger content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    margin-left:20px ;
+}
+
+.para strong {
+    display: block;
+    font-size: 18px; /* Slightly larger font for headings */
+    margin-bottom: 19px;
+    color: #333;
+}
+
+.para p {
+    font-size: 15px; /* Adjusted font size for better readability */
+    color: #555;
+    margin: 0;
+}
+
+/* Hover effect for interactivity */
+.para:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .content-container {
+        flex-wrap: wrap; /* Wrap content on smaller screens */
+        gap: 20px;
+    }
+
+    .para {
+        flex: 1 1 calc(45% - 20px); /* Reduce box size for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column; /* Stack boxes vertically on small screens */
+        align-items: center;
+    }
+
+    .para {
+        width: 80%; /* Full-width boxes on small screens */
+    }
+}

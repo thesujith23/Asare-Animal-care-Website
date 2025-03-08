@@ -1,0 +1,22 @@
+.Title{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    top: 110%;
+    left: 45%;
+}
+
+.hor1{
+    width: 50%;
+    position:absolute;
+    top: 150%;
+    left: 25%;
+    color: red;
+}
+
+  
+ 
+  

@@ -1,0 +1,145 @@
+/* *{
+    font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+  
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    box-sizing:border-box;
+  }
+
+  .Header{
+    width:100%;
+    
+  }
+
+  h1, h2 {
+    color: #333;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: red; 
+    opacity: 0.9;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 6%;
+    z-index: 1000;
+  }
+
+  .navbar ul{
+    list-style: none;
+    display: flex;
+    margin:0;
+    padding-right: 20px;
+  }
+
+  
+
+  .navbar ul li{
+    margin:0 15px;
+    
+  }
+
+  .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+
+  .navbar ul li a:hover{
+    color: black;
+    background-color: red;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  
+  
+  .home {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  
+  .hero {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    font-size: 1rem;
+  }
+  
+
+  .donation-appeal {
+    margin: 40px 20px;
+  }
+  
+  .donation-appeal ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .donation-appeal li {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  
+  .success-stories {
+    margin: 40px 20px;
+  }
+  
+  .success-stories .stories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .success-stories .story {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .success-stories .story img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .success-stories .story h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .success-stories .story p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+   */
